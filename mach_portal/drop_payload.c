@@ -158,8 +158,6 @@ void do_bind_shell(char* env, int port) {
     int wl = 0;
     while (waitpid(spawned_pid, &wl, 0) == -1 && errno == EINTR);
   }
-  
-  free(shell_path);
 }
 
 void drop_payload() {
