@@ -4,3 +4,4 @@ iosbinpack64/bin/
 iosbinpack64/etc/
 iosbinpack64/sbin/
 iosbinpack64/usr/
+build/
