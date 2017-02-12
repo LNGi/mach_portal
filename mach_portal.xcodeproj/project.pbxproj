@@ -7,11 +7,250 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26A7DB911E507B780044267D /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA8C1E507B770044267D /* .gitkeep */; };
+		26A7DB921E507B780044267D /* bash in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA8E1E507B770044267D /* bash */; };
+		26A7DB931E507B780044267D /* cat in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA8F1E507B770044267D /* cat */; };
+		26A7DB941E507B780044267D /* chmod in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA901E507B770044267D /* chmod */; };
+		26A7DB951E507B780044267D /* cp in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA911E507B770044267D /* cp */; };
+		26A7DB961E507B780044267D /* date in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA921E507B770044267D /* date */; };
+		26A7DB971E507B780044267D /* dd in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA931E507B770044267D /* dd */; };
+		26A7DB981E507B780044267D /* df in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA941E507B770044267D /* df */; };
+		26A7DB991E507B780044267D /* hostname in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA951E507B770044267D /* hostname */; };
+		26A7DB9A1E507B780044267D /* kill in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA961E507B770044267D /* kill */; };
+		26A7DB9B1E507B780044267D /* launchctl in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA971E507B770044267D /* launchctl */; };
+		26A7DB9C1E507B780044267D /* ln in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA981E507B770044267D /* ln */; };
+		26A7DB9D1E507B780044267D /* ls in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA991E507B770044267D /* ls */; };
+		26A7DB9E1E507B780044267D /* mkdir in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA9A1E507B770044267D /* mkdir */; };
+		26A7DB9F1E507B780044267D /* mv in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA9B1E507B770044267D /* mv */; };
+		26A7DBA01E507B780044267D /* ps in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA9C1E507B770044267D /* ps */; };
+		26A7DBA11E507B780044267D /* pwd in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA9D1E507B770044267D /* pwd */; };
+		26A7DBA21E507B780044267D /* rm in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA9E1E507B770044267D /* rm */; };
+		26A7DBA31E507B780044267D /* rmdir in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DA9F1E507B770044267D /* rmdir */; };
+		26A7DBA41E507B780044267D /* sh in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAA01E507B770044267D /* sh */; };
+		26A7DBA51E507B780044267D /* sleep in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAA11E507B770044267D /* sleep */; };
+		26A7DBA61E507B780044267D /* stty in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAA21E507B770044267D /* stty */; };
+		26A7DBA71E507B780044267D /* zsh in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAA31E507B770044267D /* zsh */; };
+		26A7DBA81E507B780044267D /* profile in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAA61E507B770044267D /* profile */; };
+		26A7DBA91E507B780044267D /* zshrc in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAA71E507B770044267D /* zshrc */; };
+		26A7DBAA1E507B780044267D /* dmesg in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAA91E507B770044267D /* dmesg */; };
+		26A7DBAB1E507B780044267D /* ifconfig in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAAA1E507B770044267D /* ifconfig */; };
+		26A7DBAC1E507B780044267D /* kextunload in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAAB1E507B770044267D /* kextunload */; };
+		26A7DBAD1E507B780044267D /* md5 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAAC1E507B770044267D /* md5 */; };
+		26A7DBAE1E507B780044267D /* mknod in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAAD1E507B770044267D /* mknod */; };
+		26A7DBAF1E507B780044267D /* ping in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAAE1E507B770044267D /* ping */; };
+		26A7DBB01E507B780044267D /* shutdown in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAAF1E507B770044267D /* shutdown */; };
+		26A7DBB11E507B780044267D /* arch in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAB21E507B770044267D /* arch */; };
+		26A7DBB21E507B780044267D /* chflags in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAB31E507B770044267D /* chflags */; };
+		26A7DBB31E507B780044267D /* cut in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAB41E507B770044267D /* cut */; };
+		26A7DBB41E507B780044267D /* du in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAB51E507B770044267D /* du */; };
+		26A7DBB51E507B780044267D /* false in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAB61E507B770044267D /* false */; };
+		26A7DBB61E507B780044267D /* find in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAB71E507B770044267D /* find */; };
+		26A7DBB71E507B780044267D /* fs_usage in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAB81E507B770044267D /* fs_usage */; };
+		26A7DBB81E507B780044267D /* grep in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAB91E507B770044267D /* grep */; };
+		26A7DBB91E507B780044267D /* gunzip in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DABA1E507B770044267D /* gunzip */; };
+		26A7DBBA1E507B780044267D /* gzip in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DABB1E507B770044267D /* gzip */; };
+		26A7DBBB1E507B780044267D /* head in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DABC1E507B770044267D /* head */; };
+		26A7DBBC1E507B780044267D /* hexdump in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DABD1E507B770044267D /* hexdump */; };
+		26A7DBBD1E507B780044267D /* hostinfo in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DABE1E507B770044267D /* hostinfo */; };
+		26A7DBBE1E507B780044267D /* id in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DABF1E507B770044267D /* id */; };
+		26A7DBBF1E507B780044267D /* killall in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAC01E507B770044267D /* killall */; };
+		26A7DBC01E507B780044267D /* less in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAC11E507B770044267D /* less */; };
+		26A7DBC11E507B780044267D /* login in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAC21E507B770044267D /* login */; };
+		26A7DBC21E507B780044267D /* lsmp in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAC31E507B770044267D /* lsmp */; };
+		26A7DBC31E507B780044267D /* more in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAC41E507B770044267D /* more */; };
+		26A7DBC41E507B780044267D /* nano in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAC51E507B770044267D /* nano */; };
+		26A7DBC51E507B780044267D /* nohup in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAC61E507B770044267D /* nohup */; };
+		26A7DBC61E507B780044267D /* passwd in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAC71E507B770044267D /* passwd */; };
+		26A7DBC71E507B780044267D /* plconvert in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAC81E507B770044267D /* plconvert */; };
+		26A7DBC81E507B780044267D /* printf in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAC91E507B770044267D /* printf */; };
+		26A7DBC91E507B780044267D /* renice in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DACA1E507B770044267D /* renice */; };
+		26A7DBCA1E507B780044267D /* reset in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DACB1E507B770044267D /* reset */; };
+		26A7DBCB1E507B780044267D /* sc_usage in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DACC1E507B770044267D /* sc_usage */; };
+		26A7DBCC1E507B780044267D /* scp in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DACD1E507B770044267D /* scp */; };
+		26A7DBCD1E507B780044267D /* screen in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DACE1E507B770044267D /* screen */; };
+		26A7DBCE1E507B780044267D /* script in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DACF1E507B770044267D /* script */; };
+		26A7DBCF1E507B780044267D /* sed in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAD01E507B770044267D /* sed */; };
+		26A7DBD01E507B780044267D /* seq in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAD11E507B770044267D /* seq */; };
+		26A7DBD11E507B780044267D /* split in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAD21E507B770044267D /* split */; };
+		26A7DBD21E507B780044267D /* sqlite3 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAD31E507B770044267D /* sqlite3 */; };
+		26A7DBD31E507B780044267D /* stat in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAD41E507B770044267D /* stat */; };
+		26A7DBD41E507B780044267D /* syslog in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAD51E507B770044267D /* syslog */; };
+		26A7DBD51E507B780044267D /* tail in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAD61E507B770044267D /* tail */; };
+		26A7DBD61E507B780044267D /* tar in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAD71E507B770044267D /* tar */; };
+		26A7DBD71E507B780044267D /* tee in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAD81E507B770044267D /* tee */; };
+		26A7DBD81E507B780044267D /* time in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAD91E507B770044267D /* time */; };
+		26A7DBD91E507B780044267D /* true in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DADA1E507B770044267D /* true */; };
+		26A7DBDA1E507B780044267D /* tset in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DADB1E507B770044267D /* tset */; };
+		26A7DBDB1E507B780044267D /* uname in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DADC1E507B770044267D /* uname */; };
+		26A7DBDC1E507B780044267D /* vim in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DADD1E507B770044267D /* vim */; };
+		26A7DBDD1E507B780044267D /* vm_stat in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DADE1E507B770044267D /* vm_stat */; };
+		26A7DBDE1E507B780044267D /* wc in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DADF1E507B770044267D /* wc */; };
+		26A7DBDF1E507B780044267D /* what in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAE01E507B770044267D /* what */; };
+		26A7DBE01E507B780044267D /* which in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAE11E507B770044267D /* which */; };
+		26A7DBE11E507B780044267D /* xargs in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAE21E507B770044267D /* xargs */; };
+		26A7DBE21E507B780044267D /* xxd in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAE31E507B770044267D /* xxd */; };
+		26A7DBE31E507B780044267D /* dbclient in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAE61E507B770044267D /* dbclient */; };
+		26A7DBE41E507B780044267D /* dropbear in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAE71E507B770044267D /* dropbear */; };
+		26A7DBE51E507B780044267D /* dropbearconvert in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAE81E507B770044267D /* dropbearconvert */; };
+		26A7DBE61E507B780044267D /* dropbearkey in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAE91E507B770044267D /* dropbearkey */; };
+		26A7DBE71E507B780044267D /* filemon in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAEA1E507B770044267D /* filemon */; };
+		26A7DBE81E507B780044267D /* jtool in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAEB1E507B770044267D /* jtool */; };
+		26A7DBE91E507B780044267D /* procexp in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAEC1E507B770044267D /* procexp */; };
+		26A7DBEA1E507B780044267D /* wget in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAED1E507B770044267D /* wget */; };
+		26A7DBEB1E507B780044267D /* attr.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAF21E507B770044267D /* attr.so */; };
+		26A7DBEC1E507B780044267D /* cap.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAF31E507B770044267D /* cap.so */; };
+		26A7DBED1E507B780044267D /* clone.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAF41E507B770044267D /* clone.so */; };
+		26A7DBEE1E507B780044267D /* compctl.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAF51E507B770044267D /* compctl.so */; };
+		26A7DBEF1E507B780044267D /* complete.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAF61E507B770044267D /* complete.so */; };
+		26A7DBF01E507B780044267D /* complist.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAF71E507B770044267D /* complist.so */; };
+		26A7DBF11E507B780044267D /* computil.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAF81E507B770044267D /* computil.so */; };
+		26A7DBF21E507B780044267D /* curses.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAF91E507B770044267D /* curses.so */; };
+		26A7DBF31E507B780044267D /* datetime.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAFA1E507B770044267D /* datetime.so */; };
+		26A7DBF41E507B780044267D /* deltochar.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAFB1E507B770044267D /* deltochar.so */; };
+		26A7DBF51E507B780044267D /* example.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAFC1E507B770044267D /* example.so */; };
+		26A7DBF61E507B780044267D /* files.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAFD1E507B770044267D /* files.so */; };
+		26A7DBF71E507B780044267D /* langinfo.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAFE1E507B770044267D /* langinfo.so */; };
+		26A7DBF81E507B780044267D /* mapfile.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DAFF1E507B770044267D /* mapfile.so */; };
+		26A7DBF91E507B780044267D /* mathfunc.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB001E507B770044267D /* mathfunc.so */; };
+		26A7DBFA1E507B780044267D /* newuser.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB011E507B770044267D /* newuser.so */; };
+		26A7DBFB1E507B780044267D /* parameter.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB021E507B770044267D /* parameter.so */; };
+		26A7DBFC1E507B780044267D /* regex.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB031E507B770044267D /* regex.so */; };
+		26A7DBFD1E507B780044267D /* socket.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB041E507B770044267D /* socket.so */; };
+		26A7DBFE1E507B780044267D /* stat.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB051E507B770044267D /* stat.so */; };
+		26A7DBFF1E507B780044267D /* system.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB061E507B770044267D /* system.so */; };
+		26A7DC001E507B780044267D /* tcp.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB071E507B770044267D /* tcp.so */; };
+		26A7DC011E507B780044267D /* termcap.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB081E507B770044267D /* termcap.so */; };
+		26A7DC021E507B780044267D /* terminfo.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB091E507B770044267D /* terminfo.so */; };
+		26A7DC031E507B780044267D /* zftp.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB0A1E507B770044267D /* zftp.so */; };
+		26A7DC041E507B780044267D /* zle.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB0B1E507B770044267D /* zle.so */; };
+		26A7DC051E507B780044267D /* zleparameter.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB0C1E507B770044267D /* zleparameter.so */; };
+		26A7DC061E507B780044267D /* zprof.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB0D1E507B770044267D /* zprof.so */; };
+		26A7DC071E507B780044267D /* zpty.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB0E1E507B770044267D /* zpty.so */; };
+		26A7DC081E507B780044267D /* zselect.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB0F1E507B770044267D /* zselect.so */; };
+		26A7DC091E507B780044267D /* zutil.so in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB101E507B770044267D /* zutil.so */; };
+		26A7DC0A1E507B780044267D /* chown in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB121E507B770044267D /* chown */; };
+		26A7DC0B1E507B780044267D /* ioreg in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB131E507B770044267D /* ioreg */; };
+		26A7DC0C1E507B780044267D /* kextstat in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB141E507B770044267D /* kextstat */; };
+		26A7DC0D1E507B780044267D /* ltop in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB151E507B770044267D /* ltop */; };
+		26A7DC0E1E507B780044267D /* netstat in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB161E507B770044267D /* netstat */; };
+		26A7DC0F1E507B780044267D /* nvram in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB171E507B770044267D /* nvram */; };
+		26A7DC101E507B780044267D /* sysctl in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB181E507B770044267D /* sysctl */; };
+		26A7DC111E507B780044267D /* taskpolicy in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB191E507B770044267D /* taskpolicy */; };
+		26A7DC121E507B780044267D /* ansi in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB1D1E507B770044267D /* ansi */; };
+		26A7DC131E507B780044267D /* ansi+arrows in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB1E1E507B770044267D /* ansi+arrows */; };
+		26A7DC141E507B780044267D /* ansi+csr in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB1F1E507B770044267D /* ansi+csr */; };
+		26A7DC151E507B780044267D /* ansi+cup in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB201E507B770044267D /* ansi+cup */; };
+		26A7DC161E507B780044267D /* ansi+enq in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB211E507B770044267D /* ansi+enq */; };
+		26A7DC171E507B780044267D /* ansi+erase in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB221E507B770044267D /* ansi+erase */; };
+		26A7DC181E507B780044267D /* ansi+idc in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB231E507B770044267D /* ansi+idc */; };
+		26A7DC191E507B780044267D /* ansi+idl in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB241E507B770044267D /* ansi+idl */; };
+		26A7DC1A1E507B780044267D /* ansi+idl1 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB251E507B770044267D /* ansi+idl1 */; };
+		26A7DC1B1E507B780044267D /* ansi+inittabs in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB261E507B770044267D /* ansi+inittabs */; };
+		26A7DC1C1E507B780044267D /* ansi+local in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB271E507B770044267D /* ansi+local */; };
+		26A7DC1D1E507B780044267D /* ansi+local1 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB281E507B770044267D /* ansi+local1 */; };
+		26A7DC1E1E507B780044267D /* ansi+pp in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB291E507B770044267D /* ansi+pp */; };
+		26A7DC1F1E507B780044267D /* ansi+rca in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB2A1E507B770044267D /* ansi+rca */; };
+		26A7DC201E507B780044267D /* ansi+rep in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB2B1E507B770044267D /* ansi+rep */; };
+		26A7DC211E507B780044267D /* ansi+sgr in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB2C1E507B770044267D /* ansi+sgr */; };
+		26A7DC221E507B780044267D /* ansi+sgrbold in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB2D1E507B770044267D /* ansi+sgrbold */; };
+		26A7DC231E507B780044267D /* ansi+sgrdim in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB2E1E507B770044267D /* ansi+sgrdim */; };
+		26A7DC241E507B780044267D /* ansi+sgrso in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB2F1E507B770044267D /* ansi+sgrso */; };
+		26A7DC251E507B780044267D /* ansi+sgrul in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB301E507B770044267D /* ansi+sgrul */; };
+		26A7DC261E507B780044267D /* ansi+tabs in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB311E507B770044267D /* ansi+tabs */; };
+		26A7DC271E507B780044267D /* ansi-color-2-emx in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB321E507B770044267D /* ansi-color-2-emx */; };
+		26A7DC281E507B780044267D /* ansi-color-3-emx in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB331E507B770044267D /* ansi-color-3-emx */; };
+		26A7DC291E507B780044267D /* ansi-emx in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB341E507B770044267D /* ansi-emx */; };
+		26A7DC2A1E507B780044267D /* ansi-generic in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB351E507B770044267D /* ansi-generic */; };
+		26A7DC2B1E507B780044267D /* ansi-m in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB361E507B770044267D /* ansi-m */; };
+		26A7DC2C1E507B780044267D /* ansi-mini in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB371E507B770044267D /* ansi-mini */; };
+		26A7DC2D1E507B780044267D /* ansi-mono in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB381E507B770044267D /* ansi-mono */; };
+		26A7DC2E1E507B780044267D /* ansi-mr in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB391E507B770044267D /* ansi-mr */; };
+		26A7DC2F1E507B780044267D /* ansi-mtabs in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB3A1E507B770044267D /* ansi-mtabs */; };
+		26A7DC301E507B780044267D /* ansi-nt in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB3B1E507B770044267D /* ansi-nt */; };
+		26A7DC311E507B780044267D /* ansi.sys in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB3C1E507B770044267D /* ansi.sys */; };
+		26A7DC321E507B780044267D /* ansi.sys-old in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB3D1E507B770044267D /* ansi.sys-old */; };
+		26A7DC331E507B780044267D /* ansi.sysk in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB3E1E507B770044267D /* ansi.sysk */; };
+		26A7DC341E507B780044267D /* ansi43m in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB3F1E507B770044267D /* ansi43m */; };
+		26A7DC351E507B780044267D /* ansi77 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB401E507B770044267D /* ansi77 */; };
+		26A7DC361E507B780044267D /* ansi80x25 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB411E507B770044267D /* ansi80x25 */; };
+		26A7DC371E507B780044267D /* ansi80x25-mono in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB421E507B770044267D /* ansi80x25-mono */; };
+		26A7DC381E507B780044267D /* ansi80x25-raw in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB431E507B770044267D /* ansi80x25-raw */; };
+		26A7DC391E507B780044267D /* ansi80x30 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB441E507B770044267D /* ansi80x30 */; };
+		26A7DC3A1E507B780044267D /* ansi80x30-mono in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB451E507B770044267D /* ansi80x30-mono */; };
+		26A7DC3B1E507B780044267D /* ansi80x43 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB461E507B770044267D /* ansi80x43 */; };
+		26A7DC3C1E507B780044267D /* ansi80x43-mono in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB471E507B770044267D /* ansi80x43-mono */; };
+		26A7DC3D1E507B780044267D /* ansi80x50 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB481E507B770044267D /* ansi80x50 */; };
+		26A7DC3E1E507B780044267D /* ansi80x50-mono in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB491E507B770044267D /* ansi80x50-mono */; };
+		26A7DC3F1E507B780044267D /* ansi80x60 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB4A1E507B770044267D /* ansi80x60 */; };
+		26A7DC401E507B780044267D /* ansi80x60-mono in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB4B1E507B770044267D /* ansi80x60-mono */; };
+		26A7DC411E507B780044267D /* ansil in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB4C1E507B770044267D /* ansil */; };
+		26A7DC421E507B780044267D /* ansil-mono in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB4D1E507B770044267D /* ansil-mono */; };
+		26A7DC431E507B780044267D /* ansis in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB4E1E507B770044267D /* ansis */; };
+		26A7DC441E507B780044267D /* ansis-mono in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB4F1E507B770044267D /* ansis-mono */; };
+		26A7DC451E507B780044267D /* ansisysk in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB501E507B770044267D /* ansisysk */; };
+		26A7DC461E507B780044267D /* ansiw in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB511E507B770044267D /* ansiw */; };
+		26A7DC471E507B780044267D /* linux in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB531E507B770044267D /* linux */; };
+		26A7DC481E507B780044267D /* linux-basic in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB541E507B770044267D /* linux-basic */; };
+		26A7DC491E507B780044267D /* linux-c in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB551E507B770044267D /* linux-c */; };
+		26A7DC4A1E507B780044267D /* linux-c-nc in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB561E507B770044267D /* linux-c-nc */; };
+		26A7DC4B1E507B780044267D /* linux-koi8 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB571E507B770044267D /* linux-koi8 */; };
+		26A7DC4C1E507B780044267D /* linux-koi8r in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB581E507B770044267D /* linux-koi8r */; };
+		26A7DC4D1E507B780044267D /* linux-lat in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB591E507B770044267D /* linux-lat */; };
+		26A7DC4E1E507B780044267D /* linux-m in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB5A1E507B770044267D /* linux-m */; };
+		26A7DC4F1E507B780044267D /* linux-nic in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB5B1E507B770044267D /* linux-nic */; };
+		26A7DC501E507B780044267D /* linux-vt in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB5C1E507B770044267D /* linux-vt */; };
+		26A7DC511E507B780044267D /* linux2.6.26 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB5D1E507B770044267D /* linux2.6.26 */; };
+		26A7DC521E507B780044267D /* screen in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB5F1E507B770044267D /* screen */; };
+		26A7DC531E507B780044267D /* screen+fkeys in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB601E507B770044267D /* screen+fkeys */; };
+		26A7DC541E507B780044267D /* screen-16color in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB611E507B770044267D /* screen-16color */; };
+		26A7DC551E507B780044267D /* screen-16color-bce in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB621E507B780044267D /* screen-16color-bce */; };
+		26A7DC561E507B780044267D /* screen-16color-bce-s in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB631E507B780044267D /* screen-16color-bce-s */; };
+		26A7DC571E507B780044267D /* screen-16color-s in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB641E507B780044267D /* screen-16color-s */; };
+		26A7DC581E507B780044267D /* screen-256color in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB651E507B780044267D /* screen-256color */; };
+		26A7DC591E507B780044267D /* screen-256color-bce in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB661E507B780044267D /* screen-256color-bce */; };
+		26A7DC5A1E507B780044267D /* screen-256color-bce-s in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB671E507B780044267D /* screen-256color-bce-s */; };
+		26A7DC5B1E507B780044267D /* screen-256color-s in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB681E507B780044267D /* screen-256color-s */; };
+		26A7DC5C1E507B780044267D /* screen-bce in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB691E507B780044267D /* screen-bce */; };
+		26A7DC5D1E507B780044267D /* screen-s in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB6A1E507B780044267D /* screen-s */; };
+		26A7DC5E1E507B780044267D /* screen-w in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB6B1E507B780044267D /* screen-w */; };
+		26A7DC5F1E507B780044267D /* screen.linux in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB6C1E507B780044267D /* screen.linux */; };
+		26A7DC601E507B780044267D /* screen.mlterm in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB6D1E507B780044267D /* screen.mlterm */; };
+		26A7DC611E507B780044267D /* screen.rxvt in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB6E1E507B780044267D /* screen.rxvt */; };
+		26A7DC621E507B780044267D /* screen.teraterm in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB6F1E507B780044267D /* screen.teraterm */; };
+		26A7DC631E507B780044267D /* screen.xterm-new in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB701E507B780044267D /* screen.xterm-new */; };
+		26A7DC641E507B780044267D /* screen.xterm-r6 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB711E507B780044267D /* screen.xterm-r6 */; };
+		26A7DC651E507B780044267D /* screen.xterm-xfree86 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB721E507B780044267D /* screen.xterm-xfree86 */; };
+		26A7DC661E507B780044267D /* screen2 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB731E507B780044267D /* screen2 */; };
+		26A7DC671E507B780044267D /* screen3 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB741E507B780044267D /* screen3 */; };
+		26A7DC681E507B780044267D /* vt100 in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB761E507B780044267D /* vt100 */; };
+		26A7DC691E507B780044267D /* vt100+ in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB771E507B780044267D /* vt100+ */; };
+		26A7DC6A1E507B780044267D /* vt100+enq in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB781E507B780044267D /* vt100+enq */; };
+		26A7DC6B1E507B780044267D /* vt100+fnkeys in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB791E507B780044267D /* vt100+fnkeys */; };
+		26A7DC6C1E507B780044267D /* vt100+keypad in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB7A1E507B780044267D /* vt100+keypad */; };
+		26A7DC6D1E507B780044267D /* vt100+pfkeys in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB7B1E507B780044267D /* vt100+pfkeys */; };
+		26A7DC6E1E507B780044267D /* vt100-am in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB7C1E507B780044267D /* vt100-am */; };
+		26A7DC6F1E507B780044267D /* vt100-bm in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB7D1E507B780044267D /* vt100-bm */; };
+		26A7DC701E507B780044267D /* vt100-bm-o in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB7E1E507B780044267D /* vt100-bm-o */; };
+		26A7DC711E507B780044267D /* vt100-bot-s in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB7F1E507B780044267D /* vt100-bot-s */; };
+		26A7DC721E507B780044267D /* vt100-nam in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB801E507B780044267D /* vt100-nam */; };
+		26A7DC731E507B780044267D /* vt100-nam-w in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB811E507B780044267D /* vt100-nam-w */; };
+		26A7DC741E507B780044267D /* vt100-nav in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB821E507B780044267D /* vt100-nav */; };
+		26A7DC751E507B780044267D /* vt100-nav-w in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB831E507B780044267D /* vt100-nav-w */; };
+		26A7DC761E507B780044267D /* vt100-putty in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB841E507B780044267D /* vt100-putty */; };
+		26A7DC771E507B780044267D /* vt100-s in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB851E507B780044267D /* vt100-s */; };
+		26A7DC781E507B780044267D /* vt100-s-bot in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB861E507B780044267D /* vt100-s-bot */; };
+		26A7DC791E507B780044267D /* vt100-s-top in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB871E507B780044267D /* vt100-s-top */; };
+		26A7DC7A1E507B780044267D /* vt100-top-s in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB881E507B780044267D /* vt100-top-s */; };
+		26A7DC7B1E507B780044267D /* vt100-vb in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB891E507B780044267D /* vt100-vb */; };
+		26A7DC7C1E507B780044267D /* vt100-w in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB8A1E507B780044267D /* vt100-w */; };
+		26A7DC7D1E507B780044267D /* vt100-w-am in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB8B1E507B780044267D /* vt100-w-am */; };
+		26A7DC7E1E507B780044267D /* vt100-w-nam in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB8C1E507B780044267D /* vt100-w-nam */; };
+		26A7DC7F1E507B780044267D /* vt100-w-nav in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB8D1E507B780044267D /* vt100-w-nav */; };
+		26A7DC801E507B780044267D /* vt100nam in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB8E1E507B780044267D /* vt100nam */; };
+		26A7DC811E507B780044267D /* xterm-256color in Resources */ = {isa = PBXBuildFile; fileRef = 26A7DB901E507B780044267D /* xterm-256color */; };
 		B0C0F9FE1DF4200900B7A3BB /* cdhash.c in Sources */ = {isa = PBXBuildFile; fileRef = B0C0F9FC1DF4200900B7A3BB /* cdhash.c */; };
 		B0C0FA0F1DFD949200B7A3BB /* unsandboxer.c in Sources */ = {isa = PBXBuildFile; fileRef = B0C0FA0D1DFD949200B7A3BB /* unsandboxer.c */; };
-		B0C0FA141E01E22D00B7A3BB /* iosbinpack64 in Resources */ = {isa = PBXBuildFile; fileRef = B0C0FA131E01E22D00B7A3BB /* iosbinpack64 */; };
 		B0C0FA171E01E98F00B7A3BB /* offsets.c in Sources */ = {isa = PBXBuildFile; fileRef = B0C0FA151E01E98F00B7A3BB /* offsets.c */; };
-		B0C0FA191E02E3B900B7A3BB /* README in Resources */ = {isa = PBXBuildFile; fileRef = B0C0FA181E02E3B900B7A3BB /* README */; };
 		B0CFD6381DEC438100B76CC3 /* patch_amfid.c in Sources */ = {isa = PBXBuildFile; fileRef = B0CFD6361DEC438100B76CC3 /* patch_amfid.c */; };
 		B0CFD63E1DEC751C00B76CC3 /* drop_payload.c in Sources */ = {isa = PBXBuildFile; fileRef = B0CFD63C1DEC751C00B76CC3 /* drop_payload.c */; };
 		B0FB97001DEB2C8600C0D3C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0FB96FF1DEB2C8600C0D3C4 /* AppDelegate.swift */; };
@@ -27,14 +266,254 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26A7DA891E507A470044267D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		26A7DA8C1E507B770044267D /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		26A7DA8E1E507B770044267D /* bash */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = bash; sourceTree = "<group>"; };
+		26A7DA8F1E507B770044267D /* cat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cat; sourceTree = "<group>"; };
+		26A7DA901E507B770044267D /* chmod */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = chmod; sourceTree = "<group>"; };
+		26A7DA911E507B770044267D /* cp */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cp; sourceTree = "<group>"; };
+		26A7DA921E507B770044267D /* date */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = date; sourceTree = "<group>"; };
+		26A7DA931E507B770044267D /* dd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dd; sourceTree = "<group>"; };
+		26A7DA941E507B770044267D /* df */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = df; sourceTree = "<group>"; };
+		26A7DA951E507B770044267D /* hostname */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = hostname; sourceTree = "<group>"; };
+		26A7DA961E507B770044267D /* kill */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = kill; sourceTree = "<group>"; };
+		26A7DA971E507B770044267D /* launchctl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = launchctl; sourceTree = "<group>"; };
+		26A7DA981E507B770044267D /* ln */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ln; sourceTree = "<group>"; };
+		26A7DA991E507B770044267D /* ls */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ls; sourceTree = "<group>"; };
+		26A7DA9A1E507B770044267D /* mkdir */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mkdir; sourceTree = "<group>"; };
+		26A7DA9B1E507B770044267D /* mv */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mv; sourceTree = "<group>"; };
+		26A7DA9C1E507B770044267D /* ps */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ps; sourceTree = "<group>"; };
+		26A7DA9D1E507B770044267D /* pwd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = pwd; sourceTree = "<group>"; };
+		26A7DA9E1E507B770044267D /* rm */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = rm; sourceTree = "<group>"; };
+		26A7DA9F1E507B770044267D /* rmdir */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = rmdir; sourceTree = "<group>"; };
+		26A7DAA01E507B770044267D /* sh */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = sh; sourceTree = "<group>"; };
+		26A7DAA11E507B770044267D /* sleep */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = sleep; sourceTree = "<group>"; };
+		26A7DAA21E507B770044267D /* stty */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = stty; sourceTree = "<group>"; };
+		26A7DAA31E507B770044267D /* zsh */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = zsh; sourceTree = "<group>"; };
+		26A7DAA61E507B770044267D /* profile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = profile; sourceTree = "<group>"; };
+		26A7DAA71E507B770044267D /* zshrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zshrc; sourceTree = "<group>"; };
+		26A7DAA91E507B770044267D /* dmesg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dmesg; sourceTree = "<group>"; };
+		26A7DAAA1E507B770044267D /* ifconfig */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ifconfig; sourceTree = "<group>"; };
+		26A7DAAB1E507B770044267D /* kextunload */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = kextunload; sourceTree = "<group>"; };
+		26A7DAAC1E507B770044267D /* md5 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = md5; sourceTree = "<group>"; };
+		26A7DAAD1E507B770044267D /* mknod */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mknod; sourceTree = "<group>"; };
+		26A7DAAE1E507B770044267D /* ping */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ping; sourceTree = "<group>"; };
+		26A7DAAF1E507B770044267D /* shutdown */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = shutdown; sourceTree = "<group>"; };
+		26A7DAB21E507B770044267D /* arch */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = arch; sourceTree = "<group>"; };
+		26A7DAB31E507B770044267D /* chflags */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = chflags; sourceTree = "<group>"; };
+		26A7DAB41E507B770044267D /* cut */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cut; sourceTree = "<group>"; };
+		26A7DAB51E507B770044267D /* du */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = du; sourceTree = "<group>"; };
+		26A7DAB61E507B770044267D /* false */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = false; sourceTree = "<group>"; };
+		26A7DAB71E507B770044267D /* find */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = find; sourceTree = "<group>"; };
+		26A7DAB81E507B770044267D /* fs_usage */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = fs_usage; sourceTree = "<group>"; };
+		26A7DAB91E507B770044267D /* grep */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = grep; sourceTree = "<group>"; };
+		26A7DABA1E507B770044267D /* gunzip */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gunzip; sourceTree = "<group>"; };
+		26A7DABB1E507B770044267D /* gzip */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gzip; sourceTree = "<group>"; };
+		26A7DABC1E507B770044267D /* head */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = head; sourceTree = "<group>"; };
+		26A7DABD1E507B770044267D /* hexdump */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = hexdump; sourceTree = "<group>"; };
+		26A7DABE1E507B770044267D /* hostinfo */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = hostinfo; sourceTree = "<group>"; };
+		26A7DABF1E507B770044267D /* id */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = id; sourceTree = "<group>"; };
+		26A7DAC01E507B770044267D /* killall */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = killall; sourceTree = "<group>"; };
+		26A7DAC11E507B770044267D /* less */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = less; sourceTree = "<group>"; };
+		26A7DAC21E507B770044267D /* login */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = login; sourceTree = "<group>"; };
+		26A7DAC31E507B770044267D /* lsmp */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = lsmp; sourceTree = "<group>"; };
+		26A7DAC41E507B770044267D /* more */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = more; sourceTree = "<group>"; };
+		26A7DAC51E507B770044267D /* nano */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = nano; sourceTree = "<group>"; };
+		26A7DAC61E507B770044267D /* nohup */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = nohup; sourceTree = "<group>"; };
+		26A7DAC71E507B770044267D /* passwd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = passwd; sourceTree = "<group>"; };
+		26A7DAC81E507B770044267D /* plconvert */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = plconvert; sourceTree = "<group>"; };
+		26A7DAC91E507B770044267D /* printf */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = printf; sourceTree = "<group>"; };
+		26A7DACA1E507B770044267D /* renice */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = renice; sourceTree = "<group>"; };
+		26A7DACB1E507B770044267D /* reset */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = reset; sourceTree = "<group>"; };
+		26A7DACC1E507B770044267D /* sc_usage */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = sc_usage; sourceTree = "<group>"; };
+		26A7DACD1E507B770044267D /* scp */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = scp; sourceTree = "<group>"; };
+		26A7DACE1E507B770044267D /* screen */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = screen; sourceTree = "<group>"; };
+		26A7DACF1E507B770044267D /* script */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = script; sourceTree = "<group>"; };
+		26A7DAD01E507B770044267D /* sed */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = sed; sourceTree = "<group>"; };
+		26A7DAD11E507B770044267D /* seq */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = seq; sourceTree = "<group>"; };
+		26A7DAD21E507B770044267D /* split */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = split; sourceTree = "<group>"; };
+		26A7DAD31E507B770044267D /* sqlite3 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = sqlite3; sourceTree = "<group>"; };
+		26A7DAD41E507B770044267D /* stat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = stat; sourceTree = "<group>"; };
+		26A7DAD51E507B770044267D /* syslog */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = syslog; sourceTree = "<group>"; };
+		26A7DAD61E507B770044267D /* tail */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tail; sourceTree = "<group>"; };
+		26A7DAD71E507B770044267D /* tar */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tar; sourceTree = "<group>"; };
+		26A7DAD81E507B770044267D /* tee */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tee; sourceTree = "<group>"; };
+		26A7DAD91E507B770044267D /* time */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = time; sourceTree = "<group>"; };
+		26A7DADA1E507B770044267D /* true */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = true; sourceTree = "<group>"; };
+		26A7DADB1E507B770044267D /* tset */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tset; sourceTree = "<group>"; };
+		26A7DADC1E507B770044267D /* uname */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = uname; sourceTree = "<group>"; };
+		26A7DADD1E507B770044267D /* vim */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = vim; sourceTree = "<group>"; };
+		26A7DADE1E507B770044267D /* vm_stat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = vm_stat; sourceTree = "<group>"; };
+		26A7DADF1E507B770044267D /* wc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = wc; sourceTree = "<group>"; };
+		26A7DAE01E507B770044267D /* what */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = what; sourceTree = "<group>"; };
+		26A7DAE11E507B770044267D /* which */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = which; sourceTree = "<group>"; };
+		26A7DAE21E507B770044267D /* xargs */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = xargs; sourceTree = "<group>"; };
+		26A7DAE31E507B770044267D /* xxd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = xxd; sourceTree = "<group>"; };
+		26A7DAE61E507B770044267D /* dbclient */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dbclient; sourceTree = "<group>"; };
+		26A7DAE71E507B770044267D /* dropbear */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dropbear; sourceTree = "<group>"; };
+		26A7DAE81E507B770044267D /* dropbearconvert */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dropbearconvert; sourceTree = "<group>"; };
+		26A7DAE91E507B770044267D /* dropbearkey */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dropbearkey; sourceTree = "<group>"; };
+		26A7DAEA1E507B770044267D /* filemon */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = filemon; sourceTree = "<group>"; };
+		26A7DAEB1E507B770044267D /* jtool */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = jtool; sourceTree = "<group>"; };
+		26A7DAEC1E507B770044267D /* procexp */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = procexp; sourceTree = "<group>"; };
+		26A7DAED1E507B770044267D /* wget */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = wget; sourceTree = "<group>"; };
+		26A7DAF21E507B770044267D /* attr.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = attr.so; sourceTree = "<group>"; };
+		26A7DAF31E507B770044267D /* cap.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = cap.so; sourceTree = "<group>"; };
+		26A7DAF41E507B770044267D /* clone.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = clone.so; sourceTree = "<group>"; };
+		26A7DAF51E507B770044267D /* compctl.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = compctl.so; sourceTree = "<group>"; };
+		26A7DAF61E507B770044267D /* complete.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = complete.so; sourceTree = "<group>"; };
+		26A7DAF71E507B770044267D /* complist.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = complist.so; sourceTree = "<group>"; };
+		26A7DAF81E507B770044267D /* computil.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = computil.so; sourceTree = "<group>"; };
+		26A7DAF91E507B770044267D /* curses.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = curses.so; sourceTree = "<group>"; };
+		26A7DAFA1E507B770044267D /* datetime.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = datetime.so; sourceTree = "<group>"; };
+		26A7DAFB1E507B770044267D /* deltochar.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = deltochar.so; sourceTree = "<group>"; };
+		26A7DAFC1E507B770044267D /* example.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = example.so; sourceTree = "<group>"; };
+		26A7DAFD1E507B770044267D /* files.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = files.so; sourceTree = "<group>"; };
+		26A7DAFE1E507B770044267D /* langinfo.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = langinfo.so; sourceTree = "<group>"; };
+		26A7DAFF1E507B770044267D /* mapfile.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = mapfile.so; sourceTree = "<group>"; };
+		26A7DB001E507B770044267D /* mathfunc.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = mathfunc.so; sourceTree = "<group>"; };
+		26A7DB011E507B770044267D /* newuser.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = newuser.so; sourceTree = "<group>"; };
+		26A7DB021E507B770044267D /* parameter.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = parameter.so; sourceTree = "<group>"; };
+		26A7DB031E507B770044267D /* regex.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = regex.so; sourceTree = "<group>"; };
+		26A7DB041E507B770044267D /* socket.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = socket.so; sourceTree = "<group>"; };
+		26A7DB051E507B770044267D /* stat.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = stat.so; sourceTree = "<group>"; };
+		26A7DB061E507B770044267D /* system.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = system.so; sourceTree = "<group>"; };
+		26A7DB071E507B770044267D /* tcp.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = tcp.so; sourceTree = "<group>"; };
+		26A7DB081E507B770044267D /* termcap.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = termcap.so; sourceTree = "<group>"; };
+		26A7DB091E507B770044267D /* terminfo.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = terminfo.so; sourceTree = "<group>"; };
+		26A7DB0A1E507B770044267D /* zftp.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = zftp.so; sourceTree = "<group>"; };
+		26A7DB0B1E507B770044267D /* zle.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = zle.so; sourceTree = "<group>"; };
+		26A7DB0C1E507B770044267D /* zleparameter.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = zleparameter.so; sourceTree = "<group>"; };
+		26A7DB0D1E507B770044267D /* zprof.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = zprof.so; sourceTree = "<group>"; };
+		26A7DB0E1E507B770044267D /* zpty.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = zpty.so; sourceTree = "<group>"; };
+		26A7DB0F1E507B770044267D /* zselect.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = zselect.so; sourceTree = "<group>"; };
+		26A7DB101E507B770044267D /* zutil.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.bundle"; path = zutil.so; sourceTree = "<group>"; };
+		26A7DB121E507B770044267D /* chown */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = chown; sourceTree = "<group>"; };
+		26A7DB131E507B770044267D /* ioreg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ioreg; sourceTree = "<group>"; };
+		26A7DB141E507B770044267D /* kextstat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = kextstat; sourceTree = "<group>"; };
+		26A7DB151E507B770044267D /* ltop */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ltop; sourceTree = "<group>"; };
+		26A7DB161E507B770044267D /* netstat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = netstat; sourceTree = "<group>"; };
+		26A7DB171E507B770044267D /* nvram */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = nvram; sourceTree = "<group>"; };
+		26A7DB181E507B770044267D /* sysctl */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = sysctl; sourceTree = "<group>"; };
+		26A7DB191E507B770044267D /* taskpolicy */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = taskpolicy; sourceTree = "<group>"; };
+		26A7DB1D1E507B770044267D /* ansi */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansi; sourceTree = "<group>"; };
+		26A7DB1E1E507B770044267D /* ansi+arrows */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+arrows"; sourceTree = "<group>"; };
+		26A7DB1F1E507B770044267D /* ansi+csr */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+csr"; sourceTree = "<group>"; };
+		26A7DB201E507B770044267D /* ansi+cup */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+cup"; sourceTree = "<group>"; };
+		26A7DB211E507B770044267D /* ansi+enq */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+enq"; sourceTree = "<group>"; };
+		26A7DB221E507B770044267D /* ansi+erase */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+erase"; sourceTree = "<group>"; };
+		26A7DB231E507B770044267D /* ansi+idc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+idc"; sourceTree = "<group>"; };
+		26A7DB241E507B770044267D /* ansi+idl */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+idl"; sourceTree = "<group>"; };
+		26A7DB251E507B770044267D /* ansi+idl1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+idl1"; sourceTree = "<group>"; };
+		26A7DB261E507B770044267D /* ansi+inittabs */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+inittabs"; sourceTree = "<group>"; };
+		26A7DB271E507B770044267D /* ansi+local */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+local"; sourceTree = "<group>"; };
+		26A7DB281E507B770044267D /* ansi+local1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+local1"; sourceTree = "<group>"; };
+		26A7DB291E507B770044267D /* ansi+pp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+pp"; sourceTree = "<group>"; };
+		26A7DB2A1E507B770044267D /* ansi+rca */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+rca"; sourceTree = "<group>"; };
+		26A7DB2B1E507B770044267D /* ansi+rep */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+rep"; sourceTree = "<group>"; };
+		26A7DB2C1E507B770044267D /* ansi+sgr */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+sgr"; sourceTree = "<group>"; };
+		26A7DB2D1E507B770044267D /* ansi+sgrbold */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+sgrbold"; sourceTree = "<group>"; };
+		26A7DB2E1E507B770044267D /* ansi+sgrdim */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+sgrdim"; sourceTree = "<group>"; };
+		26A7DB2F1E507B770044267D /* ansi+sgrso */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+sgrso"; sourceTree = "<group>"; };
+		26A7DB301E507B770044267D /* ansi+sgrul */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+sgrul"; sourceTree = "<group>"; };
+		26A7DB311E507B770044267D /* ansi+tabs */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi+tabs"; sourceTree = "<group>"; };
+		26A7DB321E507B770044267D /* ansi-color-2-emx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi-color-2-emx"; sourceTree = "<group>"; };
+		26A7DB331E507B770044267D /* ansi-color-3-emx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi-color-3-emx"; sourceTree = "<group>"; };
+		26A7DB341E507B770044267D /* ansi-emx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi-emx"; sourceTree = "<group>"; };
+		26A7DB351E507B770044267D /* ansi-generic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi-generic"; sourceTree = "<group>"; };
+		26A7DB361E507B770044267D /* ansi-m */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi-m"; sourceTree = "<group>"; };
+		26A7DB371E507B770044267D /* ansi-mini */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi-mini"; sourceTree = "<group>"; };
+		26A7DB381E507B770044267D /* ansi-mono */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi-mono"; sourceTree = "<group>"; };
+		26A7DB391E507B770044267D /* ansi-mr */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi-mr"; sourceTree = "<group>"; };
+		26A7DB3A1E507B770044267D /* ansi-mtabs */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi-mtabs"; sourceTree = "<group>"; };
+		26A7DB3B1E507B770044267D /* ansi-nt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi-nt"; sourceTree = "<group>"; };
+		26A7DB3C1E507B770044267D /* ansi.sys */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansi.sys; sourceTree = "<group>"; };
+		26A7DB3D1E507B770044267D /* ansi.sys-old */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi.sys-old"; sourceTree = "<group>"; };
+		26A7DB3E1E507B770044267D /* ansi.sysk */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansi.sysk; sourceTree = "<group>"; };
+		26A7DB3F1E507B770044267D /* ansi43m */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansi43m; sourceTree = "<group>"; };
+		26A7DB401E507B770044267D /* ansi77 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansi77; sourceTree = "<group>"; };
+		26A7DB411E507B770044267D /* ansi80x25 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansi80x25; sourceTree = "<group>"; };
+		26A7DB421E507B770044267D /* ansi80x25-mono */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi80x25-mono"; sourceTree = "<group>"; };
+		26A7DB431E507B770044267D /* ansi80x25-raw */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi80x25-raw"; sourceTree = "<group>"; };
+		26A7DB441E507B770044267D /* ansi80x30 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansi80x30; sourceTree = "<group>"; };
+		26A7DB451E507B770044267D /* ansi80x30-mono */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi80x30-mono"; sourceTree = "<group>"; };
+		26A7DB461E507B770044267D /* ansi80x43 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansi80x43; sourceTree = "<group>"; };
+		26A7DB471E507B770044267D /* ansi80x43-mono */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi80x43-mono"; sourceTree = "<group>"; };
+		26A7DB481E507B770044267D /* ansi80x50 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansi80x50; sourceTree = "<group>"; };
+		26A7DB491E507B770044267D /* ansi80x50-mono */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi80x50-mono"; sourceTree = "<group>"; };
+		26A7DB4A1E507B770044267D /* ansi80x60 */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansi80x60; sourceTree = "<group>"; };
+		26A7DB4B1E507B770044267D /* ansi80x60-mono */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansi80x60-mono"; sourceTree = "<group>"; };
+		26A7DB4C1E507B770044267D /* ansil */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansil; sourceTree = "<group>"; };
+		26A7DB4D1E507B770044267D /* ansil-mono */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansil-mono"; sourceTree = "<group>"; };
+		26A7DB4E1E507B770044267D /* ansis */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansis; sourceTree = "<group>"; };
+		26A7DB4F1E507B770044267D /* ansis-mono */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ansis-mono"; sourceTree = "<group>"; };
+		26A7DB501E507B770044267D /* ansisysk */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansisysk; sourceTree = "<group>"; };
+		26A7DB511E507B770044267D /* ansiw */ = {isa = PBXFileReference; lastKnownFileType = file; path = ansiw; sourceTree = "<group>"; };
+		26A7DB531E507B770044267D /* linux */ = {isa = PBXFileReference; lastKnownFileType = file; path = linux; sourceTree = "<group>"; };
+		26A7DB541E507B770044267D /* linux-basic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "linux-basic"; sourceTree = "<group>"; };
+		26A7DB551E507B770044267D /* linux-c */ = {isa = PBXFileReference; lastKnownFileType = file; path = "linux-c"; sourceTree = "<group>"; };
+		26A7DB561E507B770044267D /* linux-c-nc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "linux-c-nc"; sourceTree = "<group>"; };
+		26A7DB571E507B770044267D /* linux-koi8 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "linux-koi8"; sourceTree = "<group>"; };
+		26A7DB581E507B770044267D /* linux-koi8r */ = {isa = PBXFileReference; lastKnownFileType = file; path = "linux-koi8r"; sourceTree = "<group>"; };
+		26A7DB591E507B770044267D /* linux-lat */ = {isa = PBXFileReference; lastKnownFileType = file; path = "linux-lat"; sourceTree = "<group>"; };
+		26A7DB5A1E507B770044267D /* linux-m */ = {isa = PBXFileReference; lastKnownFileType = file; path = "linux-m"; sourceTree = "<group>"; };
+		26A7DB5B1E507B770044267D /* linux-nic */ = {isa = PBXFileReference; lastKnownFileType = file; path = "linux-nic"; sourceTree = "<group>"; };
+		26A7DB5C1E507B770044267D /* linux-vt */ = {isa = PBXFileReference; lastKnownFileType = file; path = "linux-vt"; sourceTree = "<group>"; };
+		26A7DB5D1E507B770044267D /* linux2.6.26 */ = {isa = PBXFileReference; lastKnownFileType = file; path = linux2.6.26; sourceTree = "<group>"; };
+		26A7DB5F1E507B770044267D /* screen */ = {isa = PBXFileReference; lastKnownFileType = file; path = screen; sourceTree = "<group>"; };
+		26A7DB601E507B770044267D /* screen+fkeys */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen+fkeys"; sourceTree = "<group>"; };
+		26A7DB611E507B770044267D /* screen-16color */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen-16color"; sourceTree = "<group>"; };
+		26A7DB621E507B780044267D /* screen-16color-bce */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen-16color-bce"; sourceTree = "<group>"; };
+		26A7DB631E507B780044267D /* screen-16color-bce-s */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen-16color-bce-s"; sourceTree = "<group>"; };
+		26A7DB641E507B780044267D /* screen-16color-s */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen-16color-s"; sourceTree = "<group>"; };
+		26A7DB651E507B780044267D /* screen-256color */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen-256color"; sourceTree = "<group>"; };
+		26A7DB661E507B780044267D /* screen-256color-bce */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen-256color-bce"; sourceTree = "<group>"; };
+		26A7DB671E507B780044267D /* screen-256color-bce-s */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen-256color-bce-s"; sourceTree = "<group>"; };
+		26A7DB681E507B780044267D /* screen-256color-s */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen-256color-s"; sourceTree = "<group>"; };
+		26A7DB691E507B780044267D /* screen-bce */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen-bce"; sourceTree = "<group>"; };
+		26A7DB6A1E507B780044267D /* screen-s */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen-s"; sourceTree = "<group>"; };
+		26A7DB6B1E507B780044267D /* screen-w */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen-w"; sourceTree = "<group>"; };
+		26A7DB6C1E507B780044267D /* screen.linux */ = {isa = PBXFileReference; lastKnownFileType = file; path = screen.linux; sourceTree = "<group>"; };
+		26A7DB6D1E507B780044267D /* screen.mlterm */ = {isa = PBXFileReference; lastKnownFileType = file; path = screen.mlterm; sourceTree = "<group>"; };
+		26A7DB6E1E507B780044267D /* screen.rxvt */ = {isa = PBXFileReference; lastKnownFileType = file; path = screen.rxvt; sourceTree = "<group>"; };
+		26A7DB6F1E507B780044267D /* screen.teraterm */ = {isa = PBXFileReference; lastKnownFileType = file; path = screen.teraterm; sourceTree = "<group>"; };
+		26A7DB701E507B780044267D /* screen.xterm-new */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen.xterm-new"; sourceTree = "<group>"; };
+		26A7DB711E507B780044267D /* screen.xterm-r6 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen.xterm-r6"; sourceTree = "<group>"; };
+		26A7DB721E507B780044267D /* screen.xterm-xfree86 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "screen.xterm-xfree86"; sourceTree = "<group>"; };
+		26A7DB731E507B780044267D /* screen2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = screen2; sourceTree = "<group>"; };
+		26A7DB741E507B780044267D /* screen3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = screen3; sourceTree = "<group>"; };
+		26A7DB761E507B780044267D /* vt100 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vt100; sourceTree = "<group>"; };
+		26A7DB771E507B780044267D /* vt100+ */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100+"; sourceTree = "<group>"; };
+		26A7DB781E507B780044267D /* vt100+enq */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100+enq"; sourceTree = "<group>"; };
+		26A7DB791E507B780044267D /* vt100+fnkeys */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100+fnkeys"; sourceTree = "<group>"; };
+		26A7DB7A1E507B780044267D /* vt100+keypad */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100+keypad"; sourceTree = "<group>"; };
+		26A7DB7B1E507B780044267D /* vt100+pfkeys */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100+pfkeys"; sourceTree = "<group>"; };
+		26A7DB7C1E507B780044267D /* vt100-am */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-am"; sourceTree = "<group>"; };
+		26A7DB7D1E507B780044267D /* vt100-bm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-bm"; sourceTree = "<group>"; };
+		26A7DB7E1E507B780044267D /* vt100-bm-o */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-bm-o"; sourceTree = "<group>"; };
+		26A7DB7F1E507B780044267D /* vt100-bot-s */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-bot-s"; sourceTree = "<group>"; };
+		26A7DB801E507B780044267D /* vt100-nam */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-nam"; sourceTree = "<group>"; };
+		26A7DB811E507B780044267D /* vt100-nam-w */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-nam-w"; sourceTree = "<group>"; };
+		26A7DB821E507B780044267D /* vt100-nav */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-nav"; sourceTree = "<group>"; };
+		26A7DB831E507B780044267D /* vt100-nav-w */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-nav-w"; sourceTree = "<group>"; };
+		26A7DB841E507B780044267D /* vt100-putty */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-putty"; sourceTree = "<group>"; };
+		26A7DB851E507B780044267D /* vt100-s */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-s"; sourceTree = "<group>"; };
+		26A7DB861E507B780044267D /* vt100-s-bot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-s-bot"; sourceTree = "<group>"; };
+		26A7DB871E507B780044267D /* vt100-s-top */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-s-top"; sourceTree = "<group>"; };
+		26A7DB881E507B780044267D /* vt100-top-s */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-top-s"; sourceTree = "<group>"; };
+		26A7DB891E507B780044267D /* vt100-vb */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-vb"; sourceTree = "<group>"; };
+		26A7DB8A1E507B780044267D /* vt100-w */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-w"; sourceTree = "<group>"; };
+		26A7DB8B1E507B780044267D /* vt100-w-am */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-w-am"; sourceTree = "<group>"; };
+		26A7DB8C1E507B780044267D /* vt100-w-nam */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-w-nam"; sourceTree = "<group>"; };
+		26A7DB8D1E507B780044267D /* vt100-w-nav */ = {isa = PBXFileReference; lastKnownFileType = file; path = "vt100-w-nav"; sourceTree = "<group>"; };
+		26A7DB8E1E507B780044267D /* vt100nam */ = {isa = PBXFileReference; lastKnownFileType = file; path = vt100nam; sourceTree = "<group>"; };
+		26A7DB901E507B780044267D /* xterm-256color */ = {isa = PBXFileReference; lastKnownFileType = file; path = "xterm-256color"; sourceTree = "<group>"; };
 		B0C0F9FC1DF4200900B7A3BB /* cdhash.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cdhash.c; sourceTree = "<group>"; };
 		B0C0F9FD1DF4200900B7A3BB /* cdhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cdhash.h; sourceTree = "<group>"; };
 		B0C0FA0D1DFD949200B7A3BB /* unsandboxer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unsandboxer.c; sourceTree = "<group>"; };
 		B0C0FA0E1DFD949200B7A3BB /* unsandboxer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unsandboxer.h; sourceTree = "<group>"; };
-		B0C0FA131E01E22D00B7A3BB /* iosbinpack64 */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iosbinpack64; path = mach_portal/iosbinpack64; sourceTree = SOURCE_ROOT; };
 		B0C0FA151E01E98F00B7A3BB /* offsets.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = offsets.c; sourceTree = "<group>"; };
 		B0C0FA161E01E98F00B7A3BB /* offsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = offsets.h; sourceTree = "<group>"; };
-		B0C0FA181E02E3B900B7A3BB /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		B0CFD6361DEC438100B76CC3 /* patch_amfid.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = patch_amfid.c; sourceTree = "<group>"; };
 		B0CFD6371DEC438100B76CC3 /* patch_amfid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = patch_amfid.h; sourceTree = "<group>"; };
 		B0CFD63C1DEC751C00B76CC3 /* drop_payload.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = drop_payload.c; sourceTree = "<group>"; };
@@ -70,6 +549,414 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26A7DA8B1E507B770044267D /* iosbinpack64 */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DA8C1E507B770044267D /* .gitkeep */,
+				26A7DA8D1E507B770044267D /* bin */,
+				26A7DAA41E507B770044267D /* etc */,
+				26A7DAA81E507B770044267D /* sbin */,
+				26A7DAB01E507B770044267D /* usr */,
+			);
+			path = iosbinpack64;
+			sourceTree = SOURCE_ROOT;
+		};
+		26A7DA8D1E507B770044267D /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DA8E1E507B770044267D /* bash */,
+				26A7DA8F1E507B770044267D /* cat */,
+				26A7DA901E507B770044267D /* chmod */,
+				26A7DA911E507B770044267D /* cp */,
+				26A7DA921E507B770044267D /* date */,
+				26A7DA931E507B770044267D /* dd */,
+				26A7DA941E507B770044267D /* df */,
+				26A7DA951E507B770044267D /* hostname */,
+				26A7DA961E507B770044267D /* kill */,
+				26A7DA971E507B770044267D /* launchctl */,
+				26A7DA981E507B770044267D /* ln */,
+				26A7DA991E507B770044267D /* ls */,
+				26A7DA9A1E507B770044267D /* mkdir */,
+				26A7DA9B1E507B770044267D /* mv */,
+				26A7DA9C1E507B770044267D /* ps */,
+				26A7DA9D1E507B770044267D /* pwd */,
+				26A7DA9E1E507B770044267D /* rm */,
+				26A7DA9F1E507B770044267D /* rmdir */,
+				26A7DAA01E507B770044267D /* sh */,
+				26A7DAA11E507B770044267D /* sleep */,
+				26A7DAA21E507B770044267D /* stty */,
+				26A7DAA31E507B770044267D /* zsh */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		26A7DAA41E507B770044267D /* etc */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DAA51E507B770044267D /* dropbear */,
+				26A7DAA61E507B770044267D /* profile */,
+				26A7DAA71E507B770044267D /* zshrc */,
+			);
+			path = etc;
+			sourceTree = "<group>";
+		};
+		26A7DAA51E507B770044267D /* dropbear */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = dropbear;
+			sourceTree = "<group>";
+		};
+		26A7DAA81E507B770044267D /* sbin */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DAA91E507B770044267D /* dmesg */,
+				26A7DAAA1E507B770044267D /* ifconfig */,
+				26A7DAAB1E507B770044267D /* kextunload */,
+				26A7DAAC1E507B770044267D /* md5 */,
+				26A7DAAD1E507B770044267D /* mknod */,
+				26A7DAAE1E507B770044267D /* ping */,
+				26A7DAAF1E507B770044267D /* shutdown */,
+			);
+			path = sbin;
+			sourceTree = "<group>";
+		};
+		26A7DAB01E507B770044267D /* usr */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DAB11E507B770044267D /* bin */,
+				26A7DAE41E507B770044267D /* local */,
+				26A7DB111E507B770044267D /* sbin */,
+				26A7DB1A1E507B770044267D /* share */,
+			);
+			path = usr;
+			sourceTree = "<group>";
+		};
+		26A7DAB11E507B770044267D /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DAB21E507B770044267D /* arch */,
+				26A7DAB31E507B770044267D /* chflags */,
+				26A7DAB41E507B770044267D /* cut */,
+				26A7DAB51E507B770044267D /* du */,
+				26A7DAB61E507B770044267D /* false */,
+				26A7DAB71E507B770044267D /* find */,
+				26A7DAB81E507B770044267D /* fs_usage */,
+				26A7DAB91E507B770044267D /* grep */,
+				26A7DABA1E507B770044267D /* gunzip */,
+				26A7DABB1E507B770044267D /* gzip */,
+				26A7DABC1E507B770044267D /* head */,
+				26A7DABD1E507B770044267D /* hexdump */,
+				26A7DABE1E507B770044267D /* hostinfo */,
+				26A7DABF1E507B770044267D /* id */,
+				26A7DAC01E507B770044267D /* killall */,
+				26A7DAC11E507B770044267D /* less */,
+				26A7DAC21E507B770044267D /* login */,
+				26A7DAC31E507B770044267D /* lsmp */,
+				26A7DAC41E507B770044267D /* more */,
+				26A7DAC51E507B770044267D /* nano */,
+				26A7DAC61E507B770044267D /* nohup */,
+				26A7DAC71E507B770044267D /* passwd */,
+				26A7DAC81E507B770044267D /* plconvert */,
+				26A7DAC91E507B770044267D /* printf */,
+				26A7DACA1E507B770044267D /* renice */,
+				26A7DACB1E507B770044267D /* reset */,
+				26A7DACC1E507B770044267D /* sc_usage */,
+				26A7DACD1E507B770044267D /* scp */,
+				26A7DACE1E507B770044267D /* screen */,
+				26A7DACF1E507B770044267D /* script */,
+				26A7DAD01E507B770044267D /* sed */,
+				26A7DAD11E507B770044267D /* seq */,
+				26A7DAD21E507B770044267D /* split */,
+				26A7DAD31E507B770044267D /* sqlite3 */,
+				26A7DAD41E507B770044267D /* stat */,
+				26A7DAD51E507B770044267D /* syslog */,
+				26A7DAD61E507B770044267D /* tail */,
+				26A7DAD71E507B770044267D /* tar */,
+				26A7DAD81E507B770044267D /* tee */,
+				26A7DAD91E507B770044267D /* time */,
+				26A7DADA1E507B770044267D /* true */,
+				26A7DADB1E507B770044267D /* tset */,
+				26A7DADC1E507B770044267D /* uname */,
+				26A7DADD1E507B770044267D /* vim */,
+				26A7DADE1E507B770044267D /* vm_stat */,
+				26A7DADF1E507B770044267D /* wc */,
+				26A7DAE01E507B770044267D /* what */,
+				26A7DAE11E507B770044267D /* which */,
+				26A7DAE21E507B770044267D /* xargs */,
+				26A7DAE31E507B770044267D /* xxd */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		26A7DAE41E507B770044267D /* local */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DAE51E507B770044267D /* bin */,
+				26A7DAEE1E507B770044267D /* lib */,
+			);
+			path = local;
+			sourceTree = "<group>";
+		};
+		26A7DAE51E507B770044267D /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DAE61E507B770044267D /* dbclient */,
+				26A7DAE71E507B770044267D /* dropbear */,
+				26A7DAE81E507B770044267D /* dropbearconvert */,
+				26A7DAE91E507B770044267D /* dropbearkey */,
+				26A7DAEA1E507B770044267D /* filemon */,
+				26A7DAEB1E507B770044267D /* jtool */,
+				26A7DAEC1E507B770044267D /* procexp */,
+				26A7DAED1E507B770044267D /* wget */,
+			);
+			path = bin;
+			sourceTree = "<group>";
+		};
+		26A7DAEE1E507B770044267D /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DAEF1E507B770044267D /* zsh */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		26A7DAEF1E507B770044267D /* zsh */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DAF01E507B770044267D /* 5.0.8 */,
+			);
+			path = zsh;
+			sourceTree = "<group>";
+		};
+		26A7DAF01E507B770044267D /* 5.0.8 */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DAF11E507B770044267D /* zsh */,
+			);
+			path = 5.0.8;
+			sourceTree = "<group>";
+		};
+		26A7DAF11E507B770044267D /* zsh */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DAF21E507B770044267D /* attr.so */,
+				26A7DAF31E507B770044267D /* cap.so */,
+				26A7DAF41E507B770044267D /* clone.so */,
+				26A7DAF51E507B770044267D /* compctl.so */,
+				26A7DAF61E507B770044267D /* complete.so */,
+				26A7DAF71E507B770044267D /* complist.so */,
+				26A7DAF81E507B770044267D /* computil.so */,
+				26A7DAF91E507B770044267D /* curses.so */,
+				26A7DAFA1E507B770044267D /* datetime.so */,
+				26A7DAFB1E507B770044267D /* deltochar.so */,
+				26A7DAFC1E507B770044267D /* example.so */,
+				26A7DAFD1E507B770044267D /* files.so */,
+				26A7DAFE1E507B770044267D /* langinfo.so */,
+				26A7DAFF1E507B770044267D /* mapfile.so */,
+				26A7DB001E507B770044267D /* mathfunc.so */,
+				26A7DB011E507B770044267D /* newuser.so */,
+				26A7DB021E507B770044267D /* parameter.so */,
+				26A7DB031E507B770044267D /* regex.so */,
+				26A7DB041E507B770044267D /* socket.so */,
+				26A7DB051E507B770044267D /* stat.so */,
+				26A7DB061E507B770044267D /* system.so */,
+				26A7DB071E507B770044267D /* tcp.so */,
+				26A7DB081E507B770044267D /* termcap.so */,
+				26A7DB091E507B770044267D /* terminfo.so */,
+				26A7DB0A1E507B770044267D /* zftp.so */,
+				26A7DB0B1E507B770044267D /* zle.so */,
+				26A7DB0C1E507B770044267D /* zleparameter.so */,
+				26A7DB0D1E507B770044267D /* zprof.so */,
+				26A7DB0E1E507B770044267D /* zpty.so */,
+				26A7DB0F1E507B770044267D /* zselect.so */,
+				26A7DB101E507B770044267D /* zutil.so */,
+			);
+			path = zsh;
+			sourceTree = "<group>";
+		};
+		26A7DB111E507B770044267D /* sbin */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DB121E507B770044267D /* chown */,
+				26A7DB131E507B770044267D /* ioreg */,
+				26A7DB141E507B770044267D /* kextstat */,
+				26A7DB151E507B770044267D /* ltop */,
+				26A7DB161E507B770044267D /* netstat */,
+				26A7DB171E507B770044267D /* nvram */,
+				26A7DB181E507B770044267D /* sysctl */,
+				26A7DB191E507B770044267D /* taskpolicy */,
+			);
+			path = sbin;
+			sourceTree = "<group>";
+		};
+		26A7DB1A1E507B770044267D /* share */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DB1B1E507B770044267D /* terminfo */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		26A7DB1B1E507B770044267D /* terminfo */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DB1C1E507B770044267D /* 61 */,
+				26A7DB521E507B770044267D /* 6c */,
+				26A7DB5E1E507B770044267D /* 73 */,
+				26A7DB751E507B780044267D /* 76 */,
+				26A7DB8F1E507B780044267D /* 78 */,
+			);
+			path = terminfo;
+			sourceTree = "<group>";
+		};
+		26A7DB1C1E507B770044267D /* 61 */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DB1D1E507B770044267D /* ansi */,
+				26A7DB1E1E507B770044267D /* ansi+arrows */,
+				26A7DB1F1E507B770044267D /* ansi+csr */,
+				26A7DB201E507B770044267D /* ansi+cup */,
+				26A7DB211E507B770044267D /* ansi+enq */,
+				26A7DB221E507B770044267D /* ansi+erase */,
+				26A7DB231E507B770044267D /* ansi+idc */,
+				26A7DB241E507B770044267D /* ansi+idl */,
+				26A7DB251E507B770044267D /* ansi+idl1 */,
+				26A7DB261E507B770044267D /* ansi+inittabs */,
+				26A7DB271E507B770044267D /* ansi+local */,
+				26A7DB281E507B770044267D /* ansi+local1 */,
+				26A7DB291E507B770044267D /* ansi+pp */,
+				26A7DB2A1E507B770044267D /* ansi+rca */,
+				26A7DB2B1E507B770044267D /* ansi+rep */,
+				26A7DB2C1E507B770044267D /* ansi+sgr */,
+				26A7DB2D1E507B770044267D /* ansi+sgrbold */,
+				26A7DB2E1E507B770044267D /* ansi+sgrdim */,
+				26A7DB2F1E507B770044267D /* ansi+sgrso */,
+				26A7DB301E507B770044267D /* ansi+sgrul */,
+				26A7DB311E507B770044267D /* ansi+tabs */,
+				26A7DB321E507B770044267D /* ansi-color-2-emx */,
+				26A7DB331E507B770044267D /* ansi-color-3-emx */,
+				26A7DB341E507B770044267D /* ansi-emx */,
+				26A7DB351E507B770044267D /* ansi-generic */,
+				26A7DB361E507B770044267D /* ansi-m */,
+				26A7DB371E507B770044267D /* ansi-mini */,
+				26A7DB381E507B770044267D /* ansi-mono */,
+				26A7DB391E507B770044267D /* ansi-mr */,
+				26A7DB3A1E507B770044267D /* ansi-mtabs */,
+				26A7DB3B1E507B770044267D /* ansi-nt */,
+				26A7DB3C1E507B770044267D /* ansi.sys */,
+				26A7DB3D1E507B770044267D /* ansi.sys-old */,
+				26A7DB3E1E507B770044267D /* ansi.sysk */,
+				26A7DB3F1E507B770044267D /* ansi43m */,
+				26A7DB401E507B770044267D /* ansi77 */,
+				26A7DB411E507B770044267D /* ansi80x25 */,
+				26A7DB421E507B770044267D /* ansi80x25-mono */,
+				26A7DB431E507B770044267D /* ansi80x25-raw */,
+				26A7DB441E507B770044267D /* ansi80x30 */,
+				26A7DB451E507B770044267D /* ansi80x30-mono */,
+				26A7DB461E507B770044267D /* ansi80x43 */,
+				26A7DB471E507B770044267D /* ansi80x43-mono */,
+				26A7DB481E507B770044267D /* ansi80x50 */,
+				26A7DB491E507B770044267D /* ansi80x50-mono */,
+				26A7DB4A1E507B770044267D /* ansi80x60 */,
+				26A7DB4B1E507B770044267D /* ansi80x60-mono */,
+				26A7DB4C1E507B770044267D /* ansil */,
+				26A7DB4D1E507B770044267D /* ansil-mono */,
+				26A7DB4E1E507B770044267D /* ansis */,
+				26A7DB4F1E507B770044267D /* ansis-mono */,
+				26A7DB501E507B770044267D /* ansisysk */,
+				26A7DB511E507B770044267D /* ansiw */,
+			);
+			path = 61;
+			sourceTree = "<group>";
+		};
+		26A7DB521E507B770044267D /* 6c */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DB531E507B770044267D /* linux */,
+				26A7DB541E507B770044267D /* linux-basic */,
+				26A7DB551E507B770044267D /* linux-c */,
+				26A7DB561E507B770044267D /* linux-c-nc */,
+				26A7DB571E507B770044267D /* linux-koi8 */,
+				26A7DB581E507B770044267D /* linux-koi8r */,
+				26A7DB591E507B770044267D /* linux-lat */,
+				26A7DB5A1E507B770044267D /* linux-m */,
+				26A7DB5B1E507B770044267D /* linux-nic */,
+				26A7DB5C1E507B770044267D /* linux-vt */,
+				26A7DB5D1E507B770044267D /* linux2.6.26 */,
+			);
+			path = 6c;
+			sourceTree = "<group>";
+		};
+		26A7DB5E1E507B770044267D /* 73 */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DB5F1E507B770044267D /* screen */,
+				26A7DB601E507B770044267D /* screen+fkeys */,
+				26A7DB611E507B770044267D /* screen-16color */,
+				26A7DB621E507B780044267D /* screen-16color-bce */,
+				26A7DB631E507B780044267D /* screen-16color-bce-s */,
+				26A7DB641E507B780044267D /* screen-16color-s */,
+				26A7DB651E507B780044267D /* screen-256color */,
+				26A7DB661E507B780044267D /* screen-256color-bce */,
+				26A7DB671E507B780044267D /* screen-256color-bce-s */,
+				26A7DB681E507B780044267D /* screen-256color-s */,
+				26A7DB691E507B780044267D /* screen-bce */,
+				26A7DB6A1E507B780044267D /* screen-s */,
+				26A7DB6B1E507B780044267D /* screen-w */,
+				26A7DB6C1E507B780044267D /* screen.linux */,
+				26A7DB6D1E507B780044267D /* screen.mlterm */,
+				26A7DB6E1E507B780044267D /* screen.rxvt */,
+				26A7DB6F1E507B780044267D /* screen.teraterm */,
+				26A7DB701E507B780044267D /* screen.xterm-new */,
+				26A7DB711E507B780044267D /* screen.xterm-r6 */,
+				26A7DB721E507B780044267D /* screen.xterm-xfree86 */,
+				26A7DB731E507B780044267D /* screen2 */,
+				26A7DB741E507B780044267D /* screen3 */,
+			);
+			path = 73;
+			sourceTree = "<group>";
+		};
+		26A7DB751E507B780044267D /* 76 */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DB761E507B780044267D /* vt100 */,
+				26A7DB771E507B780044267D /* vt100+ */,
+				26A7DB781E507B780044267D /* vt100+enq */,
+				26A7DB791E507B780044267D /* vt100+fnkeys */,
+				26A7DB7A1E507B780044267D /* vt100+keypad */,
+				26A7DB7B1E507B780044267D /* vt100+pfkeys */,
+				26A7DB7C1E507B780044267D /* vt100-am */,
+				26A7DB7D1E507B780044267D /* vt100-bm */,
+				26A7DB7E1E507B780044267D /* vt100-bm-o */,
+				26A7DB7F1E507B780044267D /* vt100-bot-s */,
+				26A7DB801E507B780044267D /* vt100-nam */,
+				26A7DB811E507B780044267D /* vt100-nam-w */,
+				26A7DB821E507B780044267D /* vt100-nav */,
+				26A7DB831E507B780044267D /* vt100-nav-w */,
+				26A7DB841E507B780044267D /* vt100-putty */,
+				26A7DB851E507B780044267D /* vt100-s */,
+				26A7DB861E507B780044267D /* vt100-s-bot */,
+				26A7DB871E507B780044267D /* vt100-s-top */,
+				26A7DB881E507B780044267D /* vt100-top-s */,
+				26A7DB891E507B780044267D /* vt100-vb */,
+				26A7DB8A1E507B780044267D /* vt100-w */,
+				26A7DB8B1E507B780044267D /* vt100-w-am */,
+				26A7DB8C1E507B780044267D /* vt100-w-nam */,
+				26A7DB8D1E507B780044267D /* vt100-w-nav */,
+				26A7DB8E1E507B780044267D /* vt100nam */,
+			);
+			path = 76;
+			sourceTree = "<group>";
+		};
+		26A7DB8F1E507B780044267D /* 78 */ = {
+			isa = PBXGroup;
+			children = (
+				26A7DB901E507B780044267D /* xterm-256color */,
+			);
+			path = 78;
+			sourceTree = "<group>";
+		};
 		B0FB96F31DEB2C8600C0D3C4 = {
 			isa = PBXGroup;
 			children = (
@@ -89,7 +976,7 @@
 		B0FB96FE1DEB2C8600C0D3C4 /* mach_portal */ = {
 			isa = PBXGroup;
 			children = (
-				B0C0FA131E01E22D00B7A3BB /* iosbinpack64 */,
+				26A7DA8B1E507B770044267D /* iosbinpack64 */,
 				B0FB97111DEB2C9A00C0D3C4 /* mach_portal.entitlements */,
 				B0FB96FF1DEB2C8600C0D3C4 /* AppDelegate.swift */,
 				B0FB97011DEB2C8600C0D3C4 /* ViewController.swift */,
@@ -117,7 +1004,7 @@
 				B0FB97171DEB2FF900C0D3C4 /* disable_protections.h */,
 				B0C0FA0D1DFD949200B7A3BB /* unsandboxer.c */,
 				B0C0FA0E1DFD949200B7A3BB /* unsandboxer.h */,
-				B0C0FA181E02E3B900B7A3BB /* README */,
+				26A7DA891E507A470044267D /* README.md */,
 			);
 			path = mach_portal;
 			sourceTree = "<group>";
@@ -149,12 +1036,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Ian Beer";
 				TargetAttributes = {
 					B0FB96FB1DEB2C8600C0D3C4 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 854G7LGZ42;
+						DevelopmentTeam = EU5R2QY9HJ;
 						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
@@ -188,11 +1075,250 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0C0FA191E02E3B900B7A3BB /* README in Resources */,
+				26A7DC411E507B780044267D /* ansil in Resources */,
+				26A7DC0E1E507B780044267D /* netstat in Resources */,
+				26A7DBCE1E507B780044267D /* script in Resources */,
+				26A7DC511E507B780044267D /* linux2.6.26 in Resources */,
+				26A7DBCC1E507B780044267D /* scp in Resources */,
+				26A7DBE61E507B780044267D /* dropbearkey in Resources */,
+				26A7DBE71E507B780044267D /* filemon in Resources */,
+				26A7DC6E1E507B780044267D /* vt100-am in Resources */,
+				26A7DBE91E507B780044267D /* procexp in Resources */,
+				26A7DC431E507B780044267D /* ansis in Resources */,
+				26A7DBCB1E507B780044267D /* sc_usage in Resources */,
+				26A7DC5F1E507B780044267D /* screen.linux in Resources */,
+				26A7DC321E507B780044267D /* ansi.sys-old in Resources */,
+				26A7DBAF1E507B780044267D /* ping in Resources */,
+				26A7DC4C1E507B780044267D /* linux-koi8r in Resources */,
+				26A7DBDC1E507B780044267D /* vim in Resources */,
+				26A7DBAE1E507B780044267D /* mknod in Resources */,
+				26A7DBFB1E507B780044267D /* parameter.so in Resources */,
+				26A7DBED1E507B780044267D /* clone.so in Resources */,
+				26A7DBBD1E507B780044267D /* hostinfo in Resources */,
+				26A7DB9A1E507B780044267D /* kill in Resources */,
+				26A7DBCD1E507B780044267D /* screen in Resources */,
+				26A7DC551E507B780044267D /* screen-16color-bce in Resources */,
+				26A7DB9F1E507B780044267D /* mv in Resources */,
+				26A7DBFE1E507B780044267D /* stat.so in Resources */,
+				26A7DC591E507B780044267D /* screen-256color-bce in Resources */,
+				26A7DC091E507B780044267D /* zutil.so in Resources */,
+				26A7DC201E507B780044267D /* ansi+rep in Resources */,
+				26A7DBBB1E507B780044267D /* head in Resources */,
+				26A7DB9B1E507B780044267D /* launchctl in Resources */,
+				26A7DC081E507B780044267D /* zselect.so in Resources */,
+				26A7DBEF1E507B780044267D /* complete.so in Resources */,
+				26A7DC0B1E507B780044267D /* ioreg in Resources */,
+				26A7DBEC1E507B780044267D /* cap.so in Resources */,
+				26A7DBDE1E507B780044267D /* wc in Resources */,
+				26A7DC2D1E507B780044267D /* ansi-mono in Resources */,
+				26A7DC7E1E507B780044267D /* vt100-w-nam in Resources */,
+				26A7DC7D1E507B780044267D /* vt100-w-am in Resources */,
+				26A7DBEA1E507B780044267D /* wget in Resources */,
+				26A7DBA91E507B780044267D /* zshrc in Resources */,
+				26A7DC041E507B780044267D /* zle.so in Resources */,
+				26A7DC121E507B780044267D /* ansi in Resources */,
+				26A7DBF01E507B780044267D /* complist.so in Resources */,
+				26A7DBBF1E507B780044267D /* killall in Resources */,
+				26A7DBBE1E507B780044267D /* id in Resources */,
+				26A7DC531E507B780044267D /* screen+fkeys in Resources */,
+				26A7DB971E507B780044267D /* dd in Resources */,
+				26A7DC6B1E507B780044267D /* vt100+fnkeys in Resources */,
+				26A7DC421E507B780044267D /* ansil-mono in Resources */,
+				26A7DBF81E507B780044267D /* mapfile.so in Resources */,
+				26A7DC771E507B780044267D /* vt100-s in Resources */,
+				26A7DBC31E507B780044267D /* more in Resources */,
+				26A7DC501E507B780044267D /* linux-vt in Resources */,
+				26A7DBC71E507B780044267D /* plconvert in Resources */,
+				26A7DBF41E507B780044267D /* deltochar.so in Resources */,
+				26A7DBD71E507B780044267D /* tee in Resources */,
+				26A7DBB91E507B780044267D /* gunzip in Resources */,
+				26A7DBAB1E507B780044267D /* ifconfig in Resources */,
+				26A7DBDD1E507B780044267D /* vm_stat in Resources */,
+				26A7DBFD1E507B780044267D /* socket.so in Resources */,
+				26A7DC1C1E507B780044267D /* ansi+local in Resources */,
+				26A7DBFC1E507B780044267D /* regex.so in Resources */,
+				26A7DC5D1E507B780044267D /* screen-s in Resources */,
+				26A7DBCA1E507B780044267D /* reset in Resources */,
+				26A7DC4F1E507B780044267D /* linux-nic in Resources */,
+				26A7DBDB1E507B780044267D /* uname in Resources */,
+				26A7DC341E507B780044267D /* ansi43m in Resources */,
+				26A7DBB51E507B780044267D /* false in Resources */,
+				26A7DBF31E507B780044267D /* datetime.so in Resources */,
+				26A7DBCF1E507B780044267D /* sed in Resources */,
+				26A7DBE31E507B780044267D /* dbclient in Resources */,
+				26A7DC061E507B780044267D /* zprof.so in Resources */,
+				26A7DC6D1E507B780044267D /* vt100+pfkeys in Resources */,
+				26A7DBC51E507B780044267D /* nohup in Resources */,
+				26A7DC371E507B780044267D /* ansi80x25-mono in Resources */,
+				26A7DC3D1E507B780044267D /* ansi80x50 in Resources */,
+				26A7DBC61E507B780044267D /* passwd in Resources */,
+				26A7DC031E507B780044267D /* zftp.so in Resources */,
+				26A7DC101E507B780044267D /* sysctl in Resources */,
+				26A7DC261E507B780044267D /* ansi+tabs in Resources */,
+				26A7DC241E507B780044267D /* ansi+sgrso in Resources */,
+				26A7DC5A1E507B780044267D /* screen-256color-bce-s in Resources */,
+				26A7DC521E507B780044267D /* screen in Resources */,
+				26A7DB961E507B780044267D /* date in Resources */,
+				26A7DC481E507B780044267D /* linux-basic in Resources */,
 				B0FB970A1DEB2C8700C0D3C4 /* LaunchScreen.storyboard in Resources */,
-				B0C0FA141E01E22D00B7A3BB /* iosbinpack64 in Resources */,
+				26A7DBE21E507B780044267D /* xxd in Resources */,
+				26A7DBC81E507B780044267D /* printf in Resources */,
+				26A7DBB21E507B780044267D /* chflags in Resources */,
+				26A7DC3E1E507B780044267D /* ansi80x50-mono in Resources */,
+				26A7DC2E1E507B780044267D /* ansi-mr in Resources */,
+				26A7DBA51E507B780044267D /* sleep in Resources */,
+				26A7DC1D1E507B780044267D /* ansi+local1 in Resources */,
+				26A7DBF21E507B780044267D /* curses.so in Resources */,
+				26A7DC0C1E507B780044267D /* kextstat in Resources */,
+				26A7DC2F1E507B780044267D /* ansi-mtabs in Resources */,
+				26A7DC701E507B780044267D /* vt100-bm-o in Resources */,
+				26A7DB9D1E507B780044267D /* ls in Resources */,
+				26A7DC781E507B780044267D /* vt100-s-bot in Resources */,
+				26A7DBE81E507B780044267D /* jtool in Resources */,
+				26A7DC4E1E507B780044267D /* linux-m in Resources */,
+				26A7DC231E507B780044267D /* ansi+sgrdim in Resources */,
+				26A7DC5C1E507B780044267D /* screen-bce in Resources */,
+				26A7DBB31E507B780044267D /* cut in Resources */,
+				26A7DC181E507B780044267D /* ansi+idc in Resources */,
+				26A7DBD91E507B780044267D /* true in Resources */,
+				26A7DC141E507B780044267D /* ansi+csr in Resources */,
+				26A7DBE51E507B780044267D /* dropbearconvert in Resources */,
+				26A7DC691E507B780044267D /* vt100+ in Resources */,
+				26A7DC2A1E507B780044267D /* ansi-generic in Resources */,
+				26A7DC5B1E507B780044267D /* screen-256color-s in Resources */,
+				26A7DBB71E507B780044267D /* fs_usage in Resources */,
+				26A7DBF61E507B780044267D /* files.so in Resources */,
+				26A7DC541E507B780044267D /* screen-16color in Resources */,
+				26A7DC681E507B780044267D /* vt100 in Resources */,
+				26A7DB9C1E507B780044267D /* ln in Resources */,
+				26A7DC491E507B780044267D /* linux-c in Resources */,
+				26A7DC251E507B780044267D /* ansi+sgrul in Resources */,
+				26A7DC001E507B780044267D /* tcp.so in Resources */,
+				26A7DC071E507B780044267D /* zpty.so in Resources */,
+				26A7DC271E507B780044267D /* ansi-color-2-emx in Resources */,
+				26A7DBBC1E507B780044267D /* hexdump in Resources */,
+				26A7DB951E507B780044267D /* cp in Resources */,
+				26A7DC811E507B780044267D /* xterm-256color in Resources */,
+				26A7DC391E507B780044267D /* ansi80x30 in Resources */,
+				26A7DBB11E507B780044267D /* arch in Resources */,
+				26A7DC721E507B780044267D /* vt100-nam in Resources */,
+				26A7DC621E507B780044267D /* screen.teraterm in Resources */,
+				26A7DC2C1E507B780044267D /* ansi-mini in Resources */,
+				26A7DBDF1E507B780044267D /* what in Resources */,
 				B0FB97071DEB2C8700C0D3C4 /* Assets.xcassets in Resources */,
+				26A7DBEB1E507B780044267D /* attr.so in Resources */,
+				26A7DBAA1E507B780044267D /* dmesg in Resources */,
+				26A7DC631E507B780044267D /* screen.xterm-new in Resources */,
+				26A7DC7C1E507B780044267D /* vt100-w in Resources */,
+				26A7DBA11E507B780044267D /* pwd in Resources */,
+				26A7DC7A1E507B780044267D /* vt100-top-s in Resources */,
+				26A7DBB41E507B780044267D /* du in Resources */,
+				26A7DC0F1E507B780044267D /* nvram in Resources */,
+				26A7DC6C1E507B780044267D /* vt100+keypad in Resources */,
+				26A7DBD41E507B780044267D /* syslog in Resources */,
+				26A7DC801E507B780044267D /* vt100nam in Resources */,
+				26A7DBAC1E507B780044267D /* kextunload in Resources */,
+				26A7DBA31E507B780044267D /* rmdir in Resources */,
+				26A7DC191E507B780044267D /* ansi+idl in Resources */,
+				26A7DC4A1E507B780044267D /* linux-c-nc in Resources */,
+				26A7DC641E507B780044267D /* screen.xterm-r6 in Resources */,
+				26A7DC051E507B780044267D /* zleparameter.so in Resources */,
+				26A7DBAD1E507B780044267D /* md5 in Resources */,
+				26A7DB921E507B780044267D /* bash in Resources */,
+				26A7DBA41E507B780044267D /* sh in Resources */,
+				26A7DC301E507B780044267D /* ansi-nt in Resources */,
+				26A7DBD51E507B780044267D /* tail in Resources */,
+				26A7DBF51E507B780044267D /* example.so in Resources */,
+				26A7DBE01E507B780044267D /* which in Resources */,
+				26A7DC461E507B780044267D /* ansiw in Resources */,
+				26A7DBD11E507B780044267D /* split in Resources */,
+				26A7DBDA1E507B780044267D /* tset in Resources */,
+				26A7DBC01E507B780044267D /* less in Resources */,
+				26A7DC131E507B780044267D /* ansi+arrows in Resources */,
+				26A7DC361E507B780044267D /* ansi80x25 in Resources */,
+				26A7DC221E507B780044267D /* ansi+sgrbold in Resources */,
+				26A7DC571E507B780044267D /* screen-16color-s in Resources */,
+				26A7DC561E507B780044267D /* screen-16color-bce-s in Resources */,
+				26A7DC671E507B780044267D /* screen3 in Resources */,
+				26A7DBC91E507B780044267D /* renice in Resources */,
+				26A7DBFF1E507B780044267D /* system.so in Resources */,
+				26A7DC021E507B780044267D /* terminfo.so in Resources */,
+				26A7DC651E507B780044267D /* screen.xterm-xfree86 in Resources */,
+				26A7DC1F1E507B780044267D /* ansi+rca in Resources */,
+				26A7DC1E1E507B780044267D /* ansi+pp in Resources */,
+				26A7DC111E507B780044267D /* taskpolicy in Resources */,
+				26A7DBB01E507B780044267D /* shutdown in Resources */,
+				26A7DBA21E507B780044267D /* rm in Resources */,
+				26A7DC381E507B780044267D /* ansi80x25-raw in Resources */,
+				26A7DBA71E507B780044267D /* zsh in Resources */,
+				26A7DC161E507B780044267D /* ansi+enq in Resources */,
+				26A7DC401E507B780044267D /* ansi80x60-mono in Resources */,
+				26A7DC761E507B780044267D /* vt100-putty in Resources */,
+				26A7DBD01E507B780044267D /* seq in Resources */,
+				26A7DBF11E507B780044267D /* computil.so in Resources */,
+				26A7DC661E507B780044267D /* screen2 in Resources */,
+				26A7DBC11E507B780044267D /* login in Resources */,
+				26A7DBF71E507B780044267D /* langinfo.so in Resources */,
+				26A7DC731E507B780044267D /* vt100-nam-w in Resources */,
+				26A7DC611E507B780044267D /* screen.rxvt in Resources */,
+				26A7DB931E507B780044267D /* cat in Resources */,
+				26A7DBA81E507B780044267D /* profile in Resources */,
+				26A7DC1A1E507B780044267D /* ansi+idl1 in Resources */,
+				26A7DC151E507B780044267D /* ansi+cup in Resources */,
+				26A7DBA01E507B780044267D /* ps in Resources */,
+				26A7DBEE1E507B780044267D /* compctl.so in Resources */,
+				26A7DC601E507B780044267D /* screen.mlterm in Resources */,
+				26A7DC211E507B780044267D /* ansi+sgr in Resources */,
+				26A7DC3C1E507B780044267D /* ansi80x43-mono in Resources */,
+				26A7DBFA1E507B780044267D /* newuser.so in Resources */,
+				26A7DC451E507B780044267D /* ansisysk in Resources */,
+				26A7DC311E507B780044267D /* ansi.sys in Resources */,
+				26A7DC331E507B780044267D /* ansi.sysk in Resources */,
+				26A7DBD61E507B780044267D /* tar in Resources */,
+				26A7DBC41E507B780044267D /* nano in Resources */,
+				26A7DC741E507B780044267D /* vt100-nav in Resources */,
+				26A7DBE41E507B780044267D /* dropbear in Resources */,
+				26A7DBD21E507B780044267D /* sqlite3 in Resources */,
+				26A7DB9E1E507B780044267D /* mkdir in Resources */,
+				26A7DBA61E507B780044267D /* stty in Resources */,
+				26A7DBD81E507B780044267D /* time in Resources */,
+				26A7DB991E507B780044267D /* hostname in Resources */,
+				26A7DC291E507B780044267D /* ansi-emx in Resources */,
 				B0FB97051DEB2C8600C0D3C4 /* Main.storyboard in Resources */,
+				26A7DC4D1E507B780044267D /* linux-lat in Resources */,
+				26A7DC1B1E507B780044267D /* ansi+inittabs in Resources */,
+				26A7DC3B1E507B780044267D /* ansi80x43 in Resources */,
+				26A7DC0D1E507B780044267D /* ltop in Resources */,
+				26A7DC2B1E507B780044267D /* ansi-m in Resources */,
+				26A7DC4B1E507B780044267D /* linux-koi8 in Resources */,
+				26A7DC791E507B780044267D /* vt100-s-top in Resources */,
+				26A7DB981E507B780044267D /* df in Resources */,
+				26A7DC6A1E507B780044267D /* vt100+enq in Resources */,
+				26A7DC281E507B780044267D /* ansi-color-3-emx in Resources */,
+				26A7DC3A1E507B780044267D /* ansi80x30-mono in Resources */,
+				26A7DC5E1E507B780044267D /* screen-w in Resources */,
+				26A7DC581E507B780044267D /* screen-256color in Resources */,
+				26A7DBC21E507B780044267D /* lsmp in Resources */,
+				26A7DBB61E507B780044267D /* find in Resources */,
+				26A7DBF91E507B780044267D /* mathfunc.so in Resources */,
+				26A7DBE11E507B780044267D /* xargs in Resources */,
+				26A7DC351E507B780044267D /* ansi77 in Resources */,
+				26A7DC011E507B780044267D /* termcap.so in Resources */,
+				26A7DC711E507B780044267D /* vt100-bot-s in Resources */,
+				26A7DB941E507B780044267D /* chmod in Resources */,
+				26A7DC471E507B780044267D /* linux in Resources */,
+				26A7DB911E507B780044267D /* .gitkeep in Resources */,
+				26A7DBBA1E507B780044267D /* gzip in Resources */,
+				26A7DC441E507B780044267D /* ansis-mono in Resources */,
+				26A7DC171E507B780044267D /* ansi+erase in Resources */,
+				26A7DBD31E507B780044267D /* stat in Resources */,
+				26A7DC7B1E507B780044267D /* vt100-vb in Resources */,
+				26A7DC7F1E507B780044267D /* vt100-w-nav in Resources */,
+				26A7DBB81E507B780044267D /* grep in Resources */,
+				26A7DC751E507B780044267D /* vt100-nav-w in Resources */,
+				26A7DC6F1E507B780044267D /* vt100-bm in Resources */,
+				26A7DC3F1E507B780044267D /* ansi80x60 in Resources */,
+				26A7DC0A1E507B780044267D /* chown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +1384,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -308,6 +1435,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -339,18 +1467,20 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = mach_portal/mach_portal.entitlements;
-				DEVELOPMENT_TEAM = 854G7LGZ42;
+				DEVELOPMENT_TEAM = EU5R2QY9HJ;
 				INFOPLIST_FILE = mach_portal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_LDFLAGS[arch=*]" = (
 					"-framework",
 					IOKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.mach-portal";
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.tat.mach-portal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "mach_portal/mach_portal-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = arm64;
 			};
 			name = Debug;
 		};
@@ -360,17 +1490,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = mach_portal/mach_portal.entitlements;
-				DEVELOPMENT_TEAM = 854G7LGZ42;
+				DEVELOPMENT_TEAM = EU5R2QY9HJ;
 				INFOPLIST_FILE = mach_portal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				"OTHER_LDFLAGS[arch=*]" = (
 					"-framework",
 					IOKit,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.mach-portal";
+				PRODUCT_BUNDLE_IDENTIFIER = "sh.tat.mach-portal";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "mach_portal/mach_portal-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
+				VALID_ARCHS = arm64;
 			};
 			name = Release;
 		};
